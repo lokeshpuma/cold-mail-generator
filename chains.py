@@ -7,7 +7,7 @@ SUPPORTED_PROVIDERS = {
     "groq": {
         "label": "Groq",
         "key_url": "https://console.groq.com/keys",
-        "default_model": "llama-3.1-70b-versatile",
+        "default_model": "llama-3.3-70b-versatile",
     },
 }
 
