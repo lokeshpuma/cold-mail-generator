@@ -1,5 +1,9 @@
+import os
+
 import streamlit as st
 from langchain_community.document_loaders import WebBaseLoader
+
+os.environ.setdefault("USER_AGENT", "ColdMailGenerator/1.0")
 
 from chains import SUPPORTED_PROVIDERS, Chain
 from portfolio import Portfolio

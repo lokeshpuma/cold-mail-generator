@@ -1,13 +1,13 @@
 # Cold Mail Generator
 
-Generate personalized cold emails from job posting URLs using LangChain, Groq, ChromaDB, and Streamlit.
+Generate personalized cold emails from job posting URLs using LangChain, Groq, and Streamlit.
 
 Visitors enter their own API key in the app sidebar (keys are not stored). The app scrapes a careers page, extracts job details, matches skills to your portfolio CSV, and drafts a cold email.
 
 ## Features
 
 - Job URL scraping and structured extraction (role, experience, skills, description)
-- Portfolio skill matching via vector search (ChromaDB)
+- Portfolio skill matching from your CSV (keyword overlap)
 - Configurable sender name, company, and description
 - Sidebar API key input for [Groq](https://console.groq.com/keys)
 - Deployable on [Streamlit Community Cloud](https://streamlit.io/cloud)
@@ -32,7 +32,7 @@ Visitors enter their own API key in the app sidebar (keys are not stored). The a
 
 ## Portfolio data
 
-Edit `my_portfolio.csv` with your tech stacks and project links. The vector store is built under `vectorstore/` on first run.
+Edit `my_portfolio.csv` with your tech stacks and project links.
 
 ## Deploy on Streamlit Cloud
 
