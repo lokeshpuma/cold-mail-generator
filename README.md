@@ -38,7 +38,8 @@ Edit `my_portfolio.csv` with your tech stacks and project links. The vector stor
 
 1. Push this repo to GitHub.
 2. Go to [share.streamlit.io](https://share.streamlit.io), connect the repo, and set **Main file path** to `main.py`.
-3. Users supply their own API keys in the app; you do not need to add secrets for Groq unless you want a default for yourself.
+3. Python version is pinned in `runtime.txt` (`python-3.12`) so dependencies install correctly.
+4. Users supply their own API keys in the app; you do not need to add secrets for Groq unless you want a default for yourself.
 
 ## Notebook
 
