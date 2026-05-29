@@ -11,7 +11,7 @@ Visitors enter their own API key in the app sidebar (keys are not stored). The a
 - Configurable sender name, company, and description
 - Sidebar API key input for [Groq](https://console.groq.com/keys)
 - Deployable on [Streamlit Community Cloud](https://streamlit.io/cloud)
-
+- use url = "https://www.google.com/about/careers/applications/jobs/results/108281679147082438-software-engineer-phd-early-career-2026"
 ## Local setup
 
 1. Clone the repository and install dependencies:
